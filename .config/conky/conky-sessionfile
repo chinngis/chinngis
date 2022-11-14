@@ -1,1 +1,0 @@
-conky -c /home/chris/.config/conky/Arco-Def-Cal-LUA.conkyrc & sleep 1s

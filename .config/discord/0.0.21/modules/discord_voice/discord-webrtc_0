@@ -1,0 +1,463 @@
+[2022-11-12 17:25:10.606] [19425] (engine.cpp:239): Time: Sat Nov 12 17:25:10 2022 WET logLevel:2
+[2022-11-12 17:25:10.613] [19425] (audio_processing_impl.cc:274): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2022-11-12 17:25:10.613] [19425] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2022-11-12 17:25:10.613] [19425] (audio_device_impl.cc:83): Create
+[2022-11-12 17:25:10.613] [19425] (audio_device_impl.cc:91): CreateForTest
+[2022-11-12 17:25:10.613] [19425] (audio_device_buffer.cc:64): AudioDeviceBuffer::ctor
+[2022-11-12 17:25:10.613] [19425] (audio_device_impl.cc:129): AudioDeviceModuleImpl
+[2022-11-12 17:25:10.613] [19425] (audio_device_impl.cc:133): CheckPlatform
+[2022-11-12 17:25:10.613] [19425] (audio_device_impl.cc:144): current platform is Linux
+[2022-11-12 17:25:10.613] [19425] (audio_device_impl.cc:163): CreatePlatformSpecificObjects
+[2022-11-12 17:25:10.613] [19425] (audio_device_impl.cc:992): PlatformAudioLayer
+[2022-11-12 17:25:10.613] [19425] (audio_device_impl.cc:299): PulseAudio support is enabled.
+[2022-11-12 17:25:10.613] [19425] (audio_mixer_manager_pulse_linux.cc:57): AudioMixerManagerLinuxPulse created
+[2022-11-12 17:25:10.613] [19425] (audio_device_pulse_linux.cc:81): AudioDeviceLinuxPulse created
+[2022-11-12 17:25:10.613] [19425] (audio_device_impl.cc:304): Linux PulseAudio APIs will be utilized
+[2022-11-12 17:25:10.613] [19425] (audio_device_impl.cc:345): AttachAudioBuffer
+[2022-11-12 17:25:10.613] [19425] (audio_device_buffer.cc:180): SetRecordingSampleRate(0)
+[2022-11-12 17:25:10.613] [19425] (audio_device_buffer.cc:186): SetPlayoutSampleRate(0)
+[2022-11-12 17:25:10.613] [19425] (audio_device_buffer.cc:200): SetRecordingChannels(0)
+[2022-11-12 17:25:10.613] [19425] (audio_device_buffer.cc:206): SetPlayoutChannels(0)
+[2022-11-12 17:25:10.613] [19425] (audio_device_impl.cc:355): ActiveAudioLayer
+[2022-11-12 17:25:10.613] [19425] (audio_processing_impl.cc:274): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2022-11-12 17:25:10.614] [19425] (audio_engine.cpp:483): Creating audio engine: standard
+[2022-11-12 17:25:10.614] [19425] (audio_device_impl.cc:365): Init
+[2022-11-12 17:25:10.821] [19425] (audio_coding.cpp:147): Using software Opus decoder
+[2022-11-12 17:25:10.821] [19425] (audio_coding.cpp:164): Using software Opus encoder
+[2022-11-12 17:25:10.821] [19425] (audio_device_impl.cc:896): RegisterAudioCallback
+[2022-11-12 17:25:10.821] [19425] (audio_device_buffer.cc:81): RegisterAudioCallback
+[2022-11-12 17:25:10.821] [19425] (audio_engine.cpp:197): Setting audio input device: 'default'
+[2022-11-12 17:25:10.821] [19425] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2022-11-12 17:25:10.821] [19425] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2022-11-12 17:25:10.821] [19425] (audio_device_impl.cc:777): SetRecordingDevice(0)
+[2022-11-12 17:25:10.821] [19425] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2022-11-12 17:25:10.821] [19425] (audio_mixer_manager_pulse_linux.cc:196): MicrophoneIsInitialized
+[2022-11-12 17:25:10.822] [19425] (audio_device_impl.cc:574): output: 1
+[2022-11-12 17:25:10.822] [19425] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2022-11-12 17:25:10.822] [19425] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2022-11-12 17:25:10.822] [19425] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2022-11-12 17:25:10.822] [19425] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2022-11-12 17:25:10.822] [19425] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2022-11-12 17:25:10.822] [19425] (audio_engine.cpp:209): Setting audio output device: 'default'
+[2022-11-12 17:25:10.822] [19425] (audio_device_impl.cc:709): SetPlayoutDevice(0)
+[2022-11-12 17:25:10.822] [19425] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2022-11-12 17:25:10.822] [19425] (audio_mixer_manager_pulse_linux.cc:189): SpeakerIsInitialized
+[2022-11-12 17:25:10.823] [19425] (audio_device_impl.cc:620): output: 1
+[2022-11-12 17:25:10.823] [19425] (audio_device_impl.cc:625): SetStereoPlayout(1)
+[2022-11-12 17:25:10.823] [19425] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2022-11-12 17:25:10.823] [19425] (audio_device_impl.cc:912): BuiltInAECIsAvailable
+[2022-11-12 17:25:10.823] [19425] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2022-11-12 17:25:10.823] [19425] (audio_device_impl.cc:915): output: 0
+[2022-11-12 17:25:10.823] [19425] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2022-11-12 17:25:10.823] [19425] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2022-11-12 17:25:10.823] [19425] (agc_manager_direct.cc:69): [agc] GetMinMicLevel
+[2022-11-12 17:25:10.823] [19425] (agc_manager_direct.cc:73): [agc] Using default min mic level: 12
+[2022-11-12 17:25:10.835] [19425] (captured_audio_processor.cpp:119): SetNoiseCancellation: 0
+[2022-11-12 17:25:10.835] [19425] (audio_processing_impl.cc:531): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 }, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, voice_detection: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_level_minimum: 0, analog_level_maximum: 255 }, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, level_estimator: { vad_probability_attack: 1, type: Rms, adjacent_speech_frames_threshold: 1, initial_saturation_margin_db: 20, extra_saturation_margin_db: 2 }, gain_applier: { adjacent_speech_frames_threshold: 1, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50 }}}, residual_echo_detector: { enabled: 1 }, level_estimation: { enabled: 0 }}
+[2022-11-12 17:25:10.837] [19425] (engine.cpp:144): *** OnDevicesChanged:
+[2022-11-12 17:25:10.837] [19425] (engine.cpp:145): * audioInput:
+[2022-11-12 17:25:10.837] [19425] (engine.cpp:148): - default: Built-in Audio Analog Stereo ()
+[2022-11-12 17:25:10.837] [19425] (engine.cpp:148): - Built-in Audio Analog Stereo ()
+[2022-11-12 17:25:10.837] [19425] (engine.cpp:150): * audioOutput:
+[2022-11-12 17:25:10.837] [19425] (engine.cpp:144): *** OnDevicesChanged:
+[2022-11-12 17:25:10.837] [19425] (engine.cpp:145): * audioInput:
+[2022-11-12 17:25:10.837] [19425] (engine.cpp:148): - default: Built-in Audio Analog Stereo ()
+[2022-11-12 17:25:10.837] [19425] (engine.cpp:148): - Built-in Audio Analog Stereo ()
+[2022-11-12 17:25:10.837] [19425] (engine.cpp:150): * audioOutput:
+[2022-11-12 17:25:10.837] [19425] (engine.cpp:153): - default: Built-in Audio Analog Stereo ()
+[2022-11-12 17:25:10.837] [19425] (engine.cpp:153): - Built-in Audio Analog Stereo ()
+[2022-11-12 17:25:11.117] [19405] (discord.cpp:543): JS console: ["Unsupported Locale","en-GB"]
+[2022-11-12 17:25:11.117] [19405] (discord.cpp:543): JS console: ["Unsupported Locale","en"]
+[2022-11-12 17:25:11.127] [19425] (audio_engine.cpp:197): Setting audio input device: 'default'
+[2022-11-12 17:25:11.127] [19425] (audio_device_impl.cc:827): RecordingIsInitialized
+[2022-11-12 17:25:11.127] [19425] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2022-11-12 17:25:11.127] [19425] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2022-11-12 17:25:11.127] [19425] (audio_device_impl.cc:777): SetRecordingDevice(0)
+[2022-11-12 17:25:11.127] [19425] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2022-11-12 17:25:11.127] [19425] (audio_mixer_manager_pulse_linux.cc:196): MicrophoneIsInitialized
+[2022-11-12 17:25:11.128] [19425] (audio_device_impl.cc:574): output: 1
+[2022-11-12 17:25:11.128] [19425] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2022-11-12 17:25:11.128] [19425] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2022-11-12 17:25:11.128] [19425] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2022-11-12 17:25:11.128] [19425] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2022-11-12 17:25:11.128] [19425] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2022-11-12 17:25:11.128] [19425] (audio_engine.cpp:209): Setting audio output device: 'default'
+[2022-11-12 17:25:11.128] [19425] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2022-11-12 17:25:11.128] [19425] (audio_device_impl.cc:709): SetPlayoutDevice(0)
+[2022-11-12 17:25:11.128] [19425] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2022-11-12 17:25:11.128] [19425] (audio_mixer_manager_pulse_linux.cc:189): SpeakerIsInitialized
+[2022-11-12 17:25:11.128] [19405] (discord.cpp:543): JS console: ["%c[Connection]","h264EncodingEnabled = true"]
+[2022-11-12 17:25:11.129] [19425] (audio_device_impl.cc:620): output: 1
+[2022-11-12 17:25:11.129] [19425] (audio_device_impl.cc:625): SetStereoPlayout(1)
+[2022-11-12 17:25:11.129] [19425] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2022-11-12 17:25:11.129] [19425] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2022-11-12 17:25:11.129] [19425] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2022-11-12 17:25:11.129] [19425] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2022-11-12 17:25:11.138] [19405] (discord.cpp:543): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 158183, Version Hash: 9ab8626bcebceaea6da570b9c586172d02b9c996"]
+[2022-11-12 17:25:11.282] [19405] (discord.cpp:543): JS console: ["%c[default]","[NATIVE INFO] host 0.0.21, modules: discord_desktop_core: 1, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 1, discord_voice: 4, build: undefined"]
+[2022-11-12 17:25:11.550] [19425] (audio_engine.cpp:197): Setting audio input device: 'default'
+[2022-11-12 17:25:11.550] [19425] (audio_device_impl.cc:827): RecordingIsInitialized
+[2022-11-12 17:25:11.550] [19425] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2022-11-12 17:25:11.550] [19425] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2022-11-12 17:25:11.550] [19425] (audio_device_impl.cc:777): SetRecordingDevice(0)
+[2022-11-12 17:25:11.550] [19425] (audio_device_impl.cc:567): StereoRecordingIsAvailable
+[2022-11-12 17:25:11.550] [19425] (audio_mixer_manager_pulse_linux.cc:196): MicrophoneIsInitialized
+[2022-11-12 17:25:11.551] [19425] (audio_device_impl.cc:574): output: 1
+[2022-11-12 17:25:11.551] [19425] (audio_device_impl.cc:579): SetStereoRecording(1)
+[2022-11-12 17:25:11.551] [19425] (audio_device_buffer.cc:200): SetRecordingChannels(2)
+[2022-11-12 17:25:11.551] [19425] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2022-11-12 17:25:11.551] [19425] (audio_device_impl.cc:548): SetMicrophoneVolume(255)
+[2022-11-12 17:25:11.551] [19425] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2022-11-12 17:25:11.551] [19425] (audio_engine.cpp:209): Setting audio output device: 'default'
+[2022-11-12 17:25:11.551] [19425] (audio_device_impl.cc:821): PlayoutIsInitialized
+[2022-11-12 17:25:11.551] [19425] (audio_device_impl.cc:709): SetPlayoutDevice(0)
+[2022-11-12 17:25:11.551] [19425] (audio_device_impl.cc:613): StereoPlayoutIsAvailable
+[2022-11-12 17:25:11.551] [19425] (audio_mixer_manager_pulse_linux.cc:189): SpeakerIsInitialized
+[2022-11-12 17:25:11.552] [19425] (audio_device_impl.cc:620): output: 1
+[2022-11-12 17:25:11.552] [19425] (audio_device_impl.cc:625): SetStereoPlayout(1)
+[2022-11-12 17:25:11.552] [19425] (audio_device_buffer.cc:206): SetPlayoutChannels(2)
+[2022-11-12 17:25:11.556] [19405] (discord.cpp:543): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2022-11-12 17:25:11.559] [19405] (discord.cpp:543): JS console: ["%c[Spellchecker]","Switching to en-GB","(available)"]
+[2022-11-12 17:25:12.525] [19405] (discord.cpp:543): JS console: ["Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 5/13/2022 10:00 -0800, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://discordapp.com/assets/5c5472c34e94b0a453e3.js:1206:330)\n    at Bn (https://discordapp.com/assets/5c5472c34e94b0a453e3.js:1232:696)\n    at Wn (https://discordapp.com/assets/5c5472c34e94b0a453e3.js:1235:356)\n    at Zn (https://discordapp.com/assets/5c5472c34e94b0a453e3.js:1235:199)\n    at Yn (https://discordapp.com/assets/5c5472c34e94b0a453e3.js:1234:886)\n    at Kn (https://discordapp.com/assets/5c5472c34e94b0a453e3.js:1235:697)\n    at zn (https://discordapp.com/assets/5c5472c34e94b0a453e3.js:1235:731)\n    at o (https://discordapp.com/assets/5c5472c34e94b0a453e3.js:1202:961)\n    at Object.918513 (https://discordapp.com/assets/f207b55ac76ac0ba8b64.js:2348:747)\n    at l (https://discordapp.com/assets/f0d5c9918f0067133d1f.js:1:154)\n    at Object.908570 (https://discordapp.com/assets/f207b55ac76ac0ba8b64.js:2241:794)\n    at l (https://discordapp.com/assets/f0d5c9918f0067133d1f.js:1:154)\n    at Object.101577 (https://discordapp.com/assets/f207b55ac76ac0ba8b64.js:233:188)\n    at l (https://discordapp.com/assets/f0d5c9918f0067133d1f.js:1:154)\n    at Object.877271 (https://discordapp.com/assets/f207b55ac76ac0ba8b64.js:332:296)\n    at l (https://discordapp.com/assets/f0d5c9918f0067133d1f.js:1:154)\n    at Module.862365 (https://discordapp.com/assets/c9fac4f2ff0cf9b1f6a8.js:93:176)\n    at Function.l (https://discordapp.com/assets/f0d5c9918f0067133d1f.js:1:154)"]
+[2022-11-12 17:25:12.720] [19405] (discord.cpp:543): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2022-11-12 17:25:12.733] [19405] (discord.cpp:543): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2022-11-12 17:25:13.838] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:25:16.842] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:25:19.845] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:25:22.347] [19405] (discord.cpp:543): JS console: ["Initializing krisp module"]
+[2022-11-12 17:25:22.849] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:25:25.298] [19405] (discord.cpp:543): JS console: ["%c[LoginQRSocket]","[0ms] connecting to wss://remote-auth-gateway.discord.gg/?v=2"]
+[2022-11-12 17:25:25.365] [19405] (discord.cpp:543): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2022-11-12 17:25:25.375] [19405] (discord.cpp:543): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2022-11-12 17:25:25.812] [19405] (discord.cpp:543): JS console: ["%c[LoginQRSocket]","[523ms] got hello, auth timeout=131948ms"]
+[2022-11-12 17:25:25.852] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:25:26.038] [19405] (discord.cpp:543): JS console: ["%c[LoginQRSocket]","[750ms] connected, handshaking with fingerprint: k6VSShKz0MC-6tmTvZytCCf5IQ4iPSBj5RTEL8pbGp4"]
+[2022-11-12 17:25:26.189] [19405] (discord.cpp:543): JS console: ["%c[LoginQRSocket]","[900ms] computed nonce proof"]
+[2022-11-12 17:25:26.333] [19405] (discord.cpp:543): JS console: ["%c[LoginQRSocket]","[1045ms] handshake complete awaiting remote auth."]
+[2022-11-12 17:25:28.855] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:25:31.859] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:25:34.862] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:25:37.864] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:25:40.868] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:25:43.872] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:25:46.874] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:25:49.878] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:25:52.882] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:25:55.886] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:25:57.442] [19405] (discord.cpp:543): JS console: ["%c[AuthenticationStore]","setAuthToken called.","[object Object]"]
+[2022-11-12 17:25:57.500] [19405] (discord.cpp:543): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /app"]
+[2022-11-12 17:25:57.541] [19405] (discord.cpp:543): JS console: ["%c[LoginQRSocket]","[32253ms] cleaning up"]
+[2022-11-12 17:25:57.612] [19405] (discord.cpp:543): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2022-11-12 17:25:57.989] [19405] (discord.cpp:543): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 376 ms"]
+[2022-11-12 17:25:57.990] [19405] (discord.cpp:543): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2022-11-12 17:25:57.990] [19405] (discord.cpp:543): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2022-11-12 17:25:58.021] [19405] (discord.cpp:543): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-c-vxm6: 0, heartbeat interval: 41250, took 409 ms"]
+[2022-11-12 17:25:58.645] [19405] (discord.cpp:543): JS console: ["%c[GatewaySocket]","[READY] took 1033ms, as 4ff028b21dfd616a3f3504515ee1c446 via \ngateway-prd-us-east1-c-vxm6: 211.935\n|  id_created: 1.03\n|  session_lookup_time: 0.312\n|  session_lookup_finished: 0.015\n|  discord-sessions-blue-prd-2-116: 206.947\n|  |  start_session: 166.706\n|  |  |  discord-api-8557cddd79-npgxz: 159.232\n|  |  |  |  get_user: 61.472\n|  |  |  |  get_guilds: 30.747\n|  |  |  |  user_settings_proto: 0.125\n|  |  |  |  relationships: 0.009\n|  |  |  |  friend_suggestion: 0.046\n|  |  |  |  connections: 0.019\n|  |  |  |  serialized_read_states: 0.004\n|  |  |  |  pending_payments: 0.002\n|  |  |  |  send_scheduled_deletion_message: 0.002\n|  |  |  |  sanitize_premium_perks: 0.002\n|  |  |  |  guild_join_requests: 0.003\n|  |  |  |  user_guild_settings: 0.001\n|  |  |  |  serialized_private_channels: 25.318\n|  |  |  |  experiments: 4.131\n|  |  |  |  affine_user_ids: 22.15\n|  |  |  |  required_action: 0.005\n|  |  |  |  authorized_ip_coro: 0.002\n|  |  starting_guild_connect: 0.045\n|  |  presence_started: 0.407\n|  |  guilds_started: 0.259\n|  |  guilds_connect: 36.931\n|  |  presence_connect: 0\n|  |  connect_finished: 36.95\n|  |  build_ready: 2.191\n|  |  optimize_ready: 0.108\n|  |  split_ready: 0.278\n|  |  clean_ready: 0.001"]
+[2022-11-12 17:25:58.672] [19405] (discord.cpp:543): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2022-11-12 17:25:58.720] [19405] (discord.cpp:543): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2022-11-12 17:25:58.889] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:25:59.287] [19405] (discord.cpp:543): JS console: ["%c[GatewaySocket]","Updating resume url to wss://gateway-us-east1-c.discord.gg"]
+[2022-11-12 17:25:59.345] [19405] (discord.cpp:543): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 1733ms"]
+[2022-11-12 17:26:00.014] [19405] (discord.cpp:543): JS console: ["%c[Flux]","Slow dispatch on GAMES_DATABASE_UPDATE: 439.89999999990687ms"]
+[2022-11-12 17:26:01.890] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:04.893] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:07.896] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:10.899] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:11.990] [19405] (discord.cpp:543): JS console: ["%c[MessageActionCreators]","Fetching messages for 785783391958073344 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2022-11-12 17:26:12.125] [19405] (discord.cpp:543): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/421588918580805642/785783391958073344"]
+[2022-11-12 17:26:12.905] [19405] (discord.cpp:543): JS console: ["%c[MessageActionCreators]","Fetched 10 messages for 785783391958073344 isBefore:false isAfter:false"]
+[2022-11-12 17:26:13.903] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:16.294] [19405] (discord.cpp:543): JS console: ["%c[MessageActionCreators]","Fetching messages for 421588918580805644 between undefined and undefined. jump={\"isHighlight\":false,\"jumpType\":\"ANIMATED\"}"]
+[2022-11-12 17:26:16.415] [19405] (discord.cpp:543): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/421588918580805642/421588918580805644"]
+[2022-11-12 17:26:16.676] [19405] (discord.cpp:543): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 421588918580805644 isBefore:false isAfter:false"]
+[2022-11-12 17:26:16.907] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:19.909] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:22.912] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:25.915] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:27.657] [19610] (region_latency_tester.cpp:71): Sending 5 latency test pings to region rotterdam
+[2022-11-12 17:26:27.657] [19610] (region_latency_tester.cpp:71): Sending 5 latency test pings to region stockholm
+[2022-11-12 17:26:27.657] [19610] (region_latency_tester.cpp:71): Sending 5 latency test pings to region bucharest
+[2022-11-12 17:26:27.658] [19610] (region_latency_tester.cpp:71): Sending 5 latency test pings to region finland
+[2022-11-12 17:26:27.658] [19610] (region_latency_tester.cpp:71): Sending 5 latency test pings to region newark
+[2022-11-12 17:26:27.790] [19610] (region_latency_tester.cpp:270): Average RTT for region rotterdam is 51
+[2022-11-12 17:26:27.791] [19610] (region_latency_tester.cpp:270): Average RTT for region stockholm is 72.75
+[2022-11-12 17:26:27.791] [19610] (region_latency_tester.cpp:270): Average RTT for region bucharest is 98
+[2022-11-12 17:26:27.791] [19610] (region_latency_tester.cpp:270): Average RTT for region finland is 98.5
+[2022-11-12 17:26:27.791] [19610] (region_latency_tester.cpp:270): Average RTT for region newark is 130.5
+[2022-11-12 17:26:27.794] [19405] (discord.cpp:543): JS console: ["%c[RTCLatencyTestManager]","RTC region latency test completed: ","rotterdam,stockholm,bucharest,finland,newark"]
+[2022-11-12 17:26:28.919] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:31.922] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:34.925] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:37.929] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:40.930] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:43.934] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:46.935] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:49.939] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:52.942] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:55.946] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:26:58.949] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:01.952] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:04.955] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:07.959] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:10.963] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:13.966] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:16.969] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:19.972] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:22.999] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:26.002] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:29.005] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:32.009] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:35.012] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:38.017] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:41.019] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:44.025] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:47.029] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:50.032] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:53.035] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:56.036] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:27:59.039] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:02.045] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:05.052] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:08.055] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:11.059] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:14.062] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:17.065] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:20.069] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:23.082] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:26.085] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:29.089] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:32.092] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:35.095] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:38.099] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:41.102] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:44.105] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:47.109] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:50.112] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:53.115] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:56.119] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:28:59.122] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:02.125] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:05.129] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:08.132] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:11.137] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:14.140] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:17.142] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:20.145] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:23.149] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:26.152] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:29.155] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:32.160] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:35.162] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:38.165] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:41.169] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:44.172] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:47.175] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:50.179] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:53.182] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:56.185] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:29:59.189] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:00.542] [19405] (discord.cpp:543): JS console: ["%c[Flux]","Slow dispatch on PASSIVE_UPDATE_V1: 739.7999999998137ms"]
+[2022-11-12 17:30:01.857] [19405] (discord.cpp:543): JS console: ["%c[Flux]","Slow batch emitReactChanges took 1304ms recentActions:",""]
+[2022-11-12 17:30:02.192] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:05.195] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:08.196] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:11.199] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:14.202] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:17.205] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:20.209] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:23.385] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:26.389] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:29.395] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:32.402] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:35.405] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:38.408] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:41.409] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:44.412] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:47.415] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:50.419] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:53.422] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:56.430] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:30:59.435] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:02.439] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:05.442] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:08.445] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:11.449] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:14.458] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:17.459] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:20.462] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:23.465] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:26.470] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:29.472] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:32.475] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:35.479] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:38.482] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:41.486] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:44.489] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:47.492] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:50.495] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:53.499] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:56.503] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:31:59.506] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:02.514] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:05.515] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:08.519] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:11.522] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:14.525] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:17.527] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:20.529] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:23.533] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:26.536] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:29.540] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:32.542] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:35.952] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:38.956] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:41.961] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:44.964] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:47.968] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:50.973] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:53.979] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:56.984] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:32:59.988] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:02.995] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:05.999] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:09.002] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:12.005] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:15.009] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:18.012] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:21.015] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:24.019] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:27.024] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:30.025] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:33.026] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:36.029] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:39.033] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:42.035] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:45.039] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:48.043] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:51.045] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:54.049] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:33:57.052] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:00.056] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:03.060] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:06.064] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:09.065] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:12.069] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:15.073] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:18.075] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:21.080] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:24.083] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:27.086] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:30.089] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:33.093] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:36.095] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:39.099] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:42.109] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:45.112] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:48.115] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:51.119] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:54.122] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:34:57.125] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:00.129] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:03.132] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:06.139] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:09.142] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:12.161] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:15.162] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:18.165] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:21.169] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:24.173] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:27.176] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:30.179] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:33.182] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:36.185] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:39.189] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:42.192] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:45.195] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:48.199] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:51.260] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:54.262] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:35:57.265] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:00.269] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:03.271] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:06.285] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:09.289] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:12.292] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:15.295] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:18.302] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:21.305] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:24.312] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:27.316] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:30.319] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:33.322] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:36.326] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:39.329] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:42.332] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:45.336] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:48.382] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:51.385] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:54.389] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:36:57.392] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:00.396] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:03.400] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:06.403] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:09.440] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:12.441] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:15.442] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:18.445] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:21.447] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:24.449] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:27.452] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:30.457] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:33.461] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:36.464] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:39.468] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:42.613] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:45.615] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:48.619] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:51.622] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:54.625] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:37:57.629] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:00.632] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:03.635] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:06.639] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:09.642] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:12.646] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:15.649] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:18.652] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:21.655] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:24.659] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:27.662] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:30.666] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:33.669] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:36.672] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:39.676] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:42.679] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:45.682] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:48.685] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:51.689] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:54.693] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:38:57.696] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:39:00.702] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:39:03.708] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:39:06.716] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:39:09.720] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:39:12.722] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:39:15.726] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:39:17.693] [19405] (discord.cpp:543): JS console: ["%c[Flux]","Slow dispatch on PRESENCE_UPDATES: 1090.8999999999069ms"]
+[2022-11-12 17:39:17.879] [19405] (discord.cpp:543): JS console: ["%c[Flux]","Slow batch emitChanges took 148ms recentActions:",""]
+[2022-11-12 17:39:18.008] [19405] (discord.cpp:543): JS console: ["%c[Flux]","Slow batch emitReactChanges took 123ms recentActions:",""]
+[2022-11-12 17:39:18.729] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:39:21.732] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:39:24.735] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:39:27.739] [19426] (device_info_linux.cc:45): NumberOfDevices
+[2022-11-12 17:39:30.741] [19426] (device_info_linux.cc:45): NumberOfDevices

@@ -1,0 +1,11 @@
+2022/11/07-23:31:25.321 ea0 Recovering log #37
+2022/11/07-23:31:25.340 ea0 Level-0 table #40: started
+2022/11/07-23:31:25.359 ea0 Level-0 table #40: 248350 bytes OK
+2022/11/07-23:31:25.386 ea0 Delete type=3 #35
+2022/11/07-23:31:25.386 ea0 Delete type=2 #34
+2022/11/07-23:31:25.386 ea0 Delete type=2 #36
+2022/11/07-23:31:25.386 ea0 Delete type=0 #37
+2022/11/07-23:31:31.139 e70 Compacting 1@0 + 1@1 files
+2022/11/07-23:31:31.178 e70 Generated table #42@0: 337 keys, 22261 bytes
+2022/11/07-23:31:31.178 e70 Compacted 1@0 + 1@1 files => 22261 bytes
+2022/11/07-23:31:31.206 e70 compacted to: files[ 0 1 0 0 0 0 0 ]

@@ -1,0 +1,1152 @@
+{
+   "checksum": "c05880d5ae0840e58818be49e6c87c32",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13311537995000000",
+            "date_last_used": "0",
+            "guid": "a54eeb62-7f44-405d-b721-5fe75d29cc69",
+            "id": "5",
+            "name": "Getting Started",
+            "type": "url",
+            "url": "https://www.mozilla.org/firefox/central/"
+         }, {
+            "date_added": "12802760202000000",
+            "date_last_used": "0",
+            "guid": "ecbbc694-030e-493f-9e49-b78340a7f624",
+            "id": "6",
+            "name": "Fedora Docs",
+            "type": "url",
+            "url": "https://docs.fedoraproject.org/"
+         }, {
+            "date_added": "13011814824000000",
+            "date_last_used": "0",
+            "guid": "8920f01f-fb92-4a7b-9c96-7cce007edb96",
+            "id": "7",
+            "name": "Fedora Magazine",
+            "type": "url",
+            "url": "https://fedoramagazine.org/"
+         }, {
+            "children": [ {
+               "date_added": "13148231190000000",
+               "date_last_used": "0",
+               "guid": "cfdd2d00-70d0-48c9-a403-d6026b12d77a",
+               "id": "9",
+               "name": "Get Fedora",
+               "type": "url",
+               "url": "https://getfedora.org/"
+            }, {
+               "children": [ {
+                  "date_added": "13148231272000000",
+                  "date_last_used": "0",
+                  "guid": "598608c4-2fe3-4bd4-9a56-8c16d9b2a2f0",
+                  "id": "11",
+                  "name": "Fedora Spins (Desktop Environments)",
+                  "type": "url",
+                  "url": "https://spins.fedoraproject.org/"
+               }, {
+                  "date_added": "13148231299000000",
+                  "date_last_used": "0",
+                  "guid": "707d2700-0698-41b4-b8f9-69b9c4f103de",
+                  "id": "12",
+                  "name": "Fedora Labs (Functional Bundles)",
+                  "type": "url",
+                  "url": "https://labs.fedoraproject.org/"
+               }, {
+                  "date_added": "13148231321000000",
+                  "date_last_used": "0",
+                  "guid": "736fed88-42a2-4e07-9fbf-14d86f1a38ac",
+                  "id": "13",
+                  "name": "Fedora ARM (IoT and More!)",
+                  "type": "url",
+                  "url": "https://arm.fedoraproject.org/"
+               }, {
+                  "date_added": "13148231312000000",
+                  "date_last_used": "0",
+                  "guid": "c9fa858a-7a92-4d2f-a614-655d4dcf2587",
+                  "id": "14",
+                  "name": "Fedora Alternative Downloads",
+                  "type": "url",
+                  "url": "https://alt.fedoraproject.org/"
+               } ],
+               "date_added": "13311880457245510",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "fc3dfe0e-d8aa-4424-9b6c-16ef01f56392",
+               "id": "10",
+               "name": "More Downloads",
+               "type": "folder"
+            }, {
+               "date_added": "13263664122000000",
+               "date_last_used": "0",
+               "guid": "539ff48b-ef5b-4f81-8742-1a0128a454a4",
+               "id": "15",
+               "name": "About the Fedora Project",
+               "type": "url",
+               "url": "https://docs.fedoraproject.org/en-US/project/"
+            }, {
+               "date_added": "12995981748000000",
+               "date_last_used": "0",
+               "guid": "201b7d57-ffe8-4c53-b030-e816f8526ad3",
+               "id": "16",
+               "name": "Ask Fedora (Community Support)",
+               "type": "url",
+               "url": "https://ask.fedoraproject.org/"
+            }, {
+               "date_added": "13188964273000000",
+               "date_last_used": "0",
+               "guid": "bc2375c1-8165-469b-afd7-f93ab17377e6",
+               "id": "17",
+               "name": "Fedora Discussion",
+               "type": "url",
+               "url": "https://discussion.fedoraproject.org/"
+            }, {
+               "date_added": "12821148801000000",
+               "date_last_used": "0",
+               "guid": "80f71014-ab86-44c5-be08-a17fcc0e7a4e",
+               "id": "18",
+               "name": "Planet Fedora",
+               "type": "url",
+               "url": "http://fedoraplanet.org/"
+            }, {
+               "date_added": "13108164118000000",
+               "date_last_used": "0",
+               "guid": "b8358a51-fa3e-4616-86c8-29ec86a042fb",
+               "id": "19",
+               "name": "Fedora Community Blog",
+               "type": "url",
+               "url": "https://communityblog.fedoraproject.org/"
+            }, {
+               "date_added": "12885683018000000",
+               "date_last_used": "0",
+               "guid": "b54ef632-c492-4c2e-9913-0c6d49cf7bce",
+               "id": "20",
+               "name": "Get involved with the Fedora Project",
+               "type": "url",
+               "url": "https://whatcanidoforfedora.org/"
+            } ],
+            "date_added": "13311880457244832",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "41362baa-896c-4062-9739-f422edb1dfdd",
+            "id": "8",
+            "name": "Fedora Project",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "12775441496000000",
+               "date_last_used": "0",
+               "guid": "866f03c0-7bb4-4e83-8716-408318d4c10b",
+               "id": "22",
+               "name": "Fedora Forum",
+               "type": "url",
+               "url": "https://forums.fedoraforum.org/"
+            }, {
+               "date_added": "13148230562000000",
+               "date_last_used": "0",
+               "guid": "a2bc6da2-8ce7-41bc-a507-abcbd1fa5ffb",
+               "id": "23",
+               "name": "r/Fedora on Reddit",
+               "type": "url",
+               "url": "https://www.reddit.com/r/Fedora/"
+            }, {
+               "date_added": "13148230872000000",
+               "date_last_used": "0",
+               "guid": "3d390398-020c-4408-90db-bdd9e7ac2580",
+               "id": "24",
+               "name": "Fedora on Facebook",
+               "type": "url",
+               "url": "https://www.facebook.com/TheFedoraProject"
+            }, {
+               "date_added": "13148230902000000",
+               "date_last_used": "0",
+               "guid": "2e54fe47-4b2e-423e-a2eb-cf8d8a408046",
+               "id": "25",
+               "name": "@fedora on Twitter",
+               "type": "url",
+               "url": "https://twitter.com/fedora"
+            }, {
+               "date_added": "13148231025000000",
+               "date_last_used": "0",
+               "guid": "52b816ed-23dc-4d0d-aed2-f9fcdaa030b8",
+               "id": "26",
+               "name": "Fedora Telegram",
+               "type": "url",
+               "url": "https://telegram.me/fedoranews"
+            }, {
+               "date_added": "13148231055000000",
+               "date_last_used": "0",
+               "guid": "792331e7-1895-47fd-9cab-14870674a0cb",
+               "id": "27",
+               "name": "Fedora on Discord Chat",
+               "type": "url",
+               "url": "https://discordapp.com/invite/fedora"
+            }, {
+               "date_added": "13148231141000000",
+               "date_last_used": "0",
+               "guid": "ca6b0670-bde3-479c-b6fd-5bbbaf2bbbf1",
+               "id": "28",
+               "name": "Fedora on Diaspora",
+               "type": "url",
+               "url": "https://diasp.org/u/fedora"
+            }, {
+               "date_added": "13148231122000000",
+               "date_last_used": "0",
+               "guid": "5bf4d829-8ec9-441e-a0c9-e61e16d28555",
+               "id": "29",
+               "name": "#fedora IRC via Riot",
+               "type": "url",
+               "url": "https://riot.im/app/#/room/#fedora:matrix.org"
+            } ],
+            "date_added": "13311880457246236",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "8ff1e779-a294-488a-af59-70a9bab5e427",
+            "id": "21",
+            "name": "User Communities",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "12821147748000000",
+               "date_last_used": "0",
+               "guid": "cf0dde77-7cf7-4b8f-b627-df2c816f3524",
+               "id": "31",
+               "name": "Red Hat",
+               "type": "url",
+               "url": "https://www.redhat.com/"
+            }, {
+               "date_added": "12821147789000000",
+               "date_last_used": "0",
+               "guid": "51c6d539-24ea-45e9-b134-1dd411c4ff6b",
+               "id": "32",
+               "name": "JBoss Developer Community",
+               "type": "url",
+               "url": "https://developer.jboss.org/welcome"
+            }, {
+               "date_added": "13148230622000000",
+               "date_last_used": "0",
+               "guid": "79aad8b9-62b8-4495-8db3-296b41694334",
+               "id": "33",
+               "name": "OpenShift Origin",
+               "type": "url",
+               "url": "https://www.openshift.org/"
+            }, {
+               "date_added": "13308691626000000",
+               "date_last_used": "0",
+               "guid": "db0a62b9-d203-452d-a231-b66bf2b95a71",
+               "id": "34",
+               "name": "OpenSource.com",
+               "type": "url",
+               "url": "https://opensource.com/"
+            }, {
+               "date_added": "12913761071000000",
+               "date_last_used": "0",
+               "guid": "5cb9440d-5284-49c4-8d4b-4e9d1b646e67",
+               "id": "35",
+               "name": "The Open Source Way",
+               "type": "url",
+               "url": "https://www.theopensourceway.org/"
+            } ],
+            "date_added": "13311880457252279",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "c4619576-e3df-4bf4-a08e-0ebdd78108df",
+            "id": "30",
+            "name": "Red Hat",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "12821148001000000",
+               "date_last_used": "0",
+               "guid": "29bff8c1-cf58-4886-8aca-36894b781d29",
+               "id": "37",
+               "name": "Wikipedia",
+               "type": "url",
+               "url": "https://www.wikipedia.org/"
+            }, {
+               "date_added": "12885682606000000",
+               "date_last_used": "0",
+               "guid": "7800e1cc-c292-4453-88f9-5fdab1d5d340",
+               "id": "38",
+               "name": "LibriVox",
+               "type": "url",
+               "url": "https://librivox.org/"
+            }, {
+               "date_added": "12913761071000000",
+               "date_last_used": "0",
+               "guid": "fe1c2231-84d1-4ace-985c-cc8bfd2583f9",
+               "id": "39",
+               "name": "Open Clip Art",
+               "type": "url",
+               "url": "https://openclipart.org/"
+            }, {
+               "date_added": "13308691626000000",
+               "date_last_used": "0",
+               "guid": "54cbc964-e689-4d23-bec8-945516218ba5",
+               "id": "40",
+               "name": "Free Sound",
+               "type": "url",
+               "url": "https://www.freesound.org/"
+            }, {
+               "date_added": "12821148376000000",
+               "date_last_used": "0",
+               "guid": "9d496c69-ed66-4e9c-8176-ec63853243e8",
+               "id": "41",
+               "name": "Creative Commons",
+               "type": "url",
+               "url": "https://creativecommons.org/"
+            }, {
+               "date_added": "13144176060000000",
+               "date_last_used": "0",
+               "guid": "7aae6aad-bbd1-4f7c-a381-b2ae20d5070a",
+               "id": "42",
+               "name": "Pixabay",
+               "type": "url",
+               "url": "https://pixabay.com/"
+            } ],
+            "date_added": "13311880457252946",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "8a4f2947-ce06-4d3a-8959-4c928ab066e3",
+            "id": "36",
+            "name": "Free Content",
+            "type": "folder"
+         }, {
+            "date_added": "13309659970000000",
+            "date_last_used": "0",
+            "guid": "e3e86c23-1ef8-4251-8a0e-a42b66b71968",
+            "id": "43",
+            "name": "Flathub—An app store and build service for Linux",
+            "type": "url",
+            "url": "https://flathub.org/home"
+         }, {
+            "date_added": "13310240137000000",
+            "date_last_used": "0",
+            "guid": "f6666e3e-005a-4ac9-9e47-4b665c67c811",
+            "id": "44",
+            "name": "Firefox Monitor",
+            "type": "url",
+            "url": "https://monitor.firefox.com/breach-details/MyFitnessPal"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13311537994000000",
+                  "date_last_used": "0",
+                  "guid": "2fe4f5f8-f6f0-4fda-9e59-705aa714a992",
+                  "id": "47",
+                  "name": "Get Help",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/products/firefox"
+               }, {
+                  "date_added": "13311537994000000",
+                  "date_last_used": "0",
+                  "guid": "d314b786-d31d-4625-bdfd-54d8d4c9e79a",
+                  "id": "48",
+                  "name": "Customize Firefox",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+               }, {
+                  "date_added": "13311537994000000",
+                  "date_last_used": "0",
+                  "guid": "1a54702a-0434-4c5d-926f-7a82f3ecb778",
+                  "id": "49",
+                  "name": "Get Involved",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/contribute/"
+               }, {
+                  "date_added": "13311537994000000",
+                  "date_last_used": "0",
+                  "guid": "b37a4f72-cd85-465c-93e5-d9bbc790e47e",
+                  "id": "50",
+                  "name": "About Us",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/about/"
+               } ],
+               "date_added": "13311880457254027",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "2d77cd35-2743-4c62-9af9-76eeeb83585a",
+               "id": "46",
+               "name": "Mozilla Firefox",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "children": [ {
+                     "date_added": "13309114039000000",
+                     "date_last_used": "0",
+                     "guid": "5c0fc62a-335f-4222-b327-5895de5b849c",
+                     "id": "53",
+                     "name": "FFXIV Gathering",
+                     "type": "url",
+                     "url": "https://www.ffxiv-gathering.com/"
+                  }, {
+                     "date_added": "13309129476000000",
+                     "date_last_used": "0",
+                     "guid": "5777a0b7-486d-4b9d-8c32-9c1b0f34452b",
+                     "id": "54",
+                     "name": "Garland Tools",
+                     "type": "url",
+                     "url": "http://www.garlandtools.org/"
+                  } ],
+                  "date_added": "13311880457254310",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "51624da3-f168-4a70-bef7-d4f0e68d3d14",
+                  "id": "52",
+                  "name": "Gathering",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13309443673000000",
+                     "date_last_used": "0",
+                     "guid": "b7b55461-305b-40db-968e-f108bb2c8a53",
+                     "id": "56",
+                     "name": "Crafting as a Service | Final Fantasy XIV ARR Crafting Information",
+                     "type": "url",
+                     "url": "https://ffxivcrafting.com/"
+                  }, {
+                     "date_added": "13310827741000000",
+                     "date_last_used": "0",
+                     "guid": "4924c6e4-7c0d-435b-a5e9-e5609bdc74fe",
+                     "id": "57",
+                     "name": "How to do Custom Deliveries in FFXIV (Updated Patch 6.15) - Late to the Party Finder",
+                     "type": "url",
+                     "url": "https://latetothepartyfinder.com/ffxiv-custom-deliveries/"
+                  } ],
+                  "date_added": "13311880457254429",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "096966b7-2218-402e-a773-d30688259623",
+                  "id": "55",
+                  "name": "Crafting",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13309789263000000",
+                     "date_last_used": "0",
+                     "guid": "65fc6ecc-54ee-4e37-bc9a-fb4f261091ee",
+                     "id": "59",
+                     "name": "Main Scenario Quests - Final Fantasy XIV A Realm Reborn Wiki - FFXIV / FF14 ARR Community Wiki and Guide",
+                     "type": "url",
+                     "url": "https://ffxiv.consolegameswiki.com/wiki/Main_Scenario_Quests"
+                  } ],
+                  "date_added": "13311880457254611",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "d7c9a8a9-283e-466d-b68b-2c09f8633261",
+                  "id": "58",
+                  "name": "General",
+                  "type": "folder"
+               } ],
+               "date_added": "13311880457254292",
+               "date_last_used": "0",
+               "date_modified": "13311880457254292",
+               "guid": "937975cb-50e7-4533-9f99-54edf954df6d",
+               "id": "51",
+               "name": "FFXIV",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13309203773000000",
+                  "date_last_used": "0",
+                  "guid": "421ec3d5-ee58-4c22-88be-ba1d13da44c2",
+                  "id": "61",
+                  "name": "BPINet",
+                  "type": "url",
+                  "url": "https://bpinet.bancobpi.pt/BPINET/Login.aspx"
+               }, {
+                  "date_added": "13309203883000000",
+                  "date_last_used": "0",
+                  "guid": "788128e2-82ab-4678-8b8a-f02c0bade218",
+                  "id": "62",
+                  "name": "Lloyds Bank - Welcome to Internet Banking",
+                  "type": "url",
+                  "url": "https://online.lloydsbank.co.uk/personal/logon/login.jsp?WT.ac=PLO0512&tl_cookie=RAND651292772A314DAD8004A2C5F381BA35_1574262866&LBGAc=QU1DVlNfMjMwRDY0M0U1QTI1NTA5ODBBNDk1REI2JTQwQWRvYmVPcmc=.MQ==.TEJHYzM=.c3JqNHkzbDAyMDBBT1lGbGxveWRzYmFua2NvbQ==.T1BUT1VUTVVMVElNRVNTQUdF.MQ==.T1BUT1VUTVVMVEk=.MDowfGMxOjF8YzM6MHxjNToxfGM0OjF8YzI6MA==.QU1DVl8yMzBENjQzRTVBMjU1MDk4MEE0OTVEQjYlNDBBZG9iZU9yZw==.LTIxMjExNzkwMzN8TUNJRFRTfDE5MjY4fE1DTUlEfDc1NjExMDU0MjM4MjIzMDY3MDUwOTg5Njc1MTkwNzQ3MTYyMjc1fE1DQUFNTEgtMTY2NTMzNTA3M3w2fE1DQUFNQi0xNjY1MzM1MDczfDZHMXluWWNMUHVpUXhZWnJzel9wa3FmTEc5eU1YQnBiMnpYNWR2SmRZUUp6UFhJbWRqMHl8TUNPUFRPVVQtMTY2NDczNzQ3M3N8Tk9ORXxNQ0FJRHxOT05FfHZWZXJzaW9ufDUuMy4w.dHM=.bDhybGdrdDE="
+               }, {
+                  "date_added": "13309204205000000",
+                  "date_last_used": "0",
+                  "guid": "baf67941-e8e3-4103-b7b2-b398bb0a7e07",
+                  "id": "63",
+                  "name": "SMART Currency",
+                  "type": "url",
+                  "url": "https://onlineportal.smartcurrencyexchange.com/"
+               }, {
+                  "date_added": "13309204430000000",
+                  "date_last_used": "0",
+                  "guid": "89160846-8fe4-4dcd-88d8-d4c22105a5e1",
+                  "id": "64",
+                  "name": "Portal das Finanças",
+                  "type": "url",
+                  "url": "https://www.portaldasfinancas.gov.pt/pt/home.action"
+               }, {
+                  "date_added": "13311871592000000",
+                  "date_last_used": "0",
+                  "guid": "40034725-a4d9-4619-8b06-c644c000f09c",
+                  "id": "65",
+                  "name": "Comprar, vender e transferir dinheiro pela Internet - PayPal Portugal",
+                  "type": "url",
+                  "url": "https://www.paypal.com/pt/home"
+               } ],
+               "date_added": "13311880457254721",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "b08b6930-3d1c-49ea-b8bd-8bb45c0cb0a6",
+               "id": "60",
+               "name": "Finance",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13309204543000000",
+                  "date_last_used": "0",
+                  "guid": "97f0279e-0e75-4ad0-b44c-db3c87544457",
+                  "id": "67",
+                  "name": "Portuguese Lab Academy",
+                  "type": "url",
+                  "url": "https://portugueselabacademy.com/"
+               }, {
+                  "date_added": "13309204623000000",
+                  "date_last_used": "0",
+                  "guid": "5c5e53ab-80ac-44eb-a1c6-3ec28c424089",
+                  "id": "68",
+                  "name": "Login - The Mimic Method",
+                  "type": "url",
+                  "url": "https://www.mimicmethod.com/login/"
+               }, {
+                  "date_added": "13309204641000000",
+                  "date_last_used": "0",
+                  "guid": "abd9e460-086e-431b-9761-6e609dc9573b",
+                  "id": "69",
+                  "name": "DeepL Translate: The world's most accurate translator",
+                  "type": "url",
+                  "url": "https://www.deepl.com/en/translator"
+               }, {
+                  "date_added": "13311101095000000",
+                  "date_last_used": "0",
+                  "guid": "73a4b9ba-c29d-4cc2-b23d-54008c5b4e52",
+                  "id": "70",
+                  "name": "How To Use Linux For Language Learning (Setup And Ricing)",
+                  "type": "url",
+                  "url": "https://www.mezzoguild.com/linux-language-learning/"
+               } ],
+               "date_added": "13311880457255232",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "63bada81-cc5d-4dd0-a597-0a81865e8e07",
+               "id": "66",
+               "name": "Portuguese Language",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "children": [ {
+                     "date_added": "13309204722000000",
+                     "date_last_used": "0",
+                     "guid": "3b4af3b5-177f-459b-95cb-0eba21a7cbba",
+                     "id": "73",
+                     "name": "Jamie Harrison Guitar",
+                     "type": "url",
+                     "url": "https://www.jamieharrisonguitar.com/"
+                  }, {
+                     "date_added": "13309204881000000",
+                     "date_last_used": "0",
+                     "guid": "a8754ff4-b08d-4345-a0f8-7e82e556b364",
+                     "id": "74",
+                     "name": "Learn how to play guitar with JustinGuitar.com | JustinGuitar.com",
+                     "type": "url",
+                     "url": "https://www.justinguitar.com/"
+                  }, {
+                     "date_added": "13310150910000000",
+                     "date_last_used": "0",
+                     "guid": "402f0968-8173-4cb4-aa6d-8d4da5934137",
+                     "id": "75",
+                     "name": "Ultimate Guide to Getting Started With Guitarix | Libre Music Production",
+                     "type": "url",
+                     "url": "https://linuxaudio.github.io/libremusicproduction/html/articles/ultimate-guide-getting-started-guitarix.html"
+                  }, {
+                     "date_added": "13310478347000000",
+                     "date_last_used": "0",
+                     "guid": "a82d4a42-6c52-43eb-a81d-34c4b3f2e5fe",
+                     "id": "76",
+                     "name": "Guitar Gear Reviews - Guitar, Amplifier, and Pedal Reviews by intheblues",
+                     "type": "url",
+                     "url": "https://guitarpedaldemos.com/"
+                  } ],
+                  "date_added": "13311880457255369",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "58625efd-a631-42c0-98e7-37c68658dcff",
+                  "id": "72",
+                  "name": "Guitar",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13309204813000000",
+                     "date_last_used": "0",
+                     "guid": "4c057f97-7289-440d-989d-a18752f4c297",
+                     "id": "78",
+                     "name": "Your Vocal Teacher | Pro Vocal Instruction",
+                     "type": "url",
+                     "url": "https://www.yourvocalteacher.com/"
+                  } ],
+                  "date_added": "13311880457255490",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "e335b54d-3594-467f-9cc9-e5594f39c1a5",
+                  "id": "77",
+                  "name": "Vocals",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13310486134000000",
+                     "date_last_used": "0",
+                     "guid": "539d089e-baf3-4de6-9630-0c68fe73183b",
+                     "id": "80",
+                     "name": "(1) Ardour 6 Quickstart (recording, editing, mixing and exporting) - YouTube",
+                     "type": "url",
+                     "url": "https://www.youtube.com/watch?v=bfTAKv4htDE"
+                  } ],
+                  "date_added": "13311880457255518",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "e922cf3c-3473-4d3e-9cfe-468caf9348e1",
+                  "id": "79",
+                  "name": "Recording",
+                  "type": "folder"
+               } ],
+               "date_added": "13311880457255363",
+               "date_last_used": "0",
+               "date_modified": "13311880457255363",
+               "guid": "c6784f54-b22d-4a7a-a315-c3c95c94a2b2",
+               "id": "71",
+               "name": "Music",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13309204960000000",
+                  "date_last_used": "0",
+                  "guid": "3dfd5155-9a24-42a8-8f22-5aac72c7fc21",
+                  "id": "82",
+                  "name": "NFL - Game Pass",
+                  "type": "url",
+                  "url": "https://www.nflgamepass.com/en/account/sign-in"
+               }, {
+                  "date_added": "13309807951000000",
+                  "date_last_used": "0",
+                  "guid": "2dc95b37-fd40-4570-a82b-312c1ab4d424",
+                  "id": "83",
+                  "name": "MusicBrainz - The Open Music Encyclopedia",
+                  "type": "url",
+                  "url": "https://musicbrainz.org/"
+               }, {
+                  "date_added": "13309955309000000",
+                  "date_last_used": "0",
+                  "guid": "0cd26b4c-0d44-45ff-9f99-7bcfa71dfe5f",
+                  "id": "84",
+                  "name": "Tales from the Dawn | FINAL FANTASY XIV, The Lodestone",
+                  "type": "url",
+                  "url": "https://na.finalfantasyxiv.com/lodestone/special/tales_from_the_dawn/sidestory_01/#sidestory_01"
+               }, {
+                  "date_added": "13311526045000000",
+                  "date_last_used": "0",
+                  "guid": "332cbb10-c8d5-465a-8931-a481f064226b",
+                  "id": "85",
+                  "name": "Odysee",
+                  "type": "url",
+                  "url": "https://odysee.com/"
+               } ],
+               "date_added": "13311880457255552",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "269fa1b5-fd35-443c-8f0b-c5a6014442e8",
+               "id": "81",
+               "name": "Entertainment",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13309205051000000",
+                  "date_last_used": "0",
+                  "guid": "39ec4c81-4945-45fe-aa17-5e05b73c2ca8",
+                  "id": "87",
+                  "name": "Laboratórios Médicos de Análises Clínicas",
+                  "type": "url",
+                  "url": "https://www.avelab.pt/"
+               } ],
+               "date_added": "13311880457255649",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "cb7f8b7a-9094-4dd6-adc2-d9285639f4d6",
+               "id": "86",
+               "name": "Medical",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13309205119000000",
+                  "date_last_used": "0",
+                  "guid": "c420a932-cdb4-47a2-85e9-dfcb89b00a68",
+                  "id": "89",
+                  "name": "IMT Online",
+                  "type": "url",
+                  "url": "http://www.imtonline.pt/"
+               } ],
+               "date_added": "13311880457255679",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "5361254c-3434-4e5b-ad35-a659c32407d1",
+               "id": "88",
+               "name": "Portugal Living",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13309205203000000",
+                  "date_last_used": "0",
+                  "guid": "cb281918-5cf0-485d-a6fb-1a7faa484c0f",
+                  "id": "91",
+                  "name": "PCDIGA",
+                  "type": "url",
+                  "url": "https://www.pcdiga.com/"
+               }, {
+                  "date_added": "13309790319000000",
+                  "date_last_used": "0",
+                  "guid": "3db33156-15a9-4c16-8d53-a040de110dbd",
+                  "id": "92",
+                  "name": "TUXEDO Computers Linux laptops",
+                  "type": "url",
+                  "url": "https://www.tuxedocomputers.com/en/Linux-Hardware/Linux-Notebooks.tuxedo"
+               } ],
+               "date_added": "13311880457255703",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "a71e24f6-d2cf-430a-a5a4-a5c1c153c647",
+               "id": "90",
+               "name": "Shopping",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13309372827000000",
+                  "date_last_used": "0",
+                  "guid": "ccc7d69a-4567-4b10-98d6-421650dc447a",
+                  "id": "94",
+                  "name": "Free office suite for Windows, Linux and macOS | ONLYOFFICE",
+                  "type": "url",
+                  "url": "https://www.onlyoffice.com/desktop.aspx"
+               } ],
+               "date_added": "13311880457255754",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "fbcd9b53-2397-481b-87e4-2d388baae315",
+               "id": "93",
+               "name": "Productivity",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "children": [ {
+                     "date_added": "13311096967000000",
+                     "date_last_used": "0",
+                     "guid": "f065bde4-bd0b-4bf3-b5f3-b810344b7dc1",
+                     "id": "97",
+                     "name": "Linux Hardware Database",
+                     "type": "url",
+                     "url": "https://linux-hardware.org/"
+                  }, {
+                     "date_added": "13311098104000000",
+                     "date_last_used": "0",
+                     "guid": "3c58b888-e24c-479e-b9c5-020e82daa54e",
+                     "id": "98",
+                     "name": "Linux Hardware Compatibility HOWTO",
+                     "type": "url",
+                     "url": "https://tldp.org/HOWTO/Hardware-HOWTO/"
+                  }, {
+                     "date_added": "13310735741000000",
+                     "date_last_used": "0",
+                     "guid": "0cf7f9fd-09fa-4ef3-ad9b-563aa2503a5e",
+                     "id": "99",
+                     "name": "Howto/NVIDIA - RPM Fusion",
+                     "type": "url",
+                     "url": "https://rpmfusion.org/Howto/NVIDIA"
+                  }, {
+                     "date_added": "13310736197000000",
+                     "date_last_used": "0",
+                     "guid": "e675a134-9fba-41ce-8606-7d2135004036",
+                     "id": "100",
+                     "name": "Howto/Optimus - RPM Fusion",
+                     "type": "url",
+                     "url": "https://rpmfusion.org/Howto/Optimus"
+                  }, {
+                     "date_added": "13311619239000000",
+                     "date_last_used": "0",
+                     "guid": "45ec7158-60dc-47a0-8820-002b0dafb306",
+                     "id": "101",
+                     "name": "Linux Hardware Reviews & Performance Benchmarks, Open-Source News - Phoronix",
+                     "type": "url",
+                     "url": "https://www.phoronix.com/"
+                  } ],
+                  "date_added": "13311880457255793",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "6fce280c-035f-4d9a-b72d-957401a0836b",
+                  "id": "96",
+                  "name": "Hardware",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13311098141000000",
+                     "date_last_used": "0",
+                     "guid": "ac6f2688-a766-469c-9ef6-b6f34c6133b3",
+                     "id": "103",
+                     "name": "Home | Linux Journal",
+                     "type": "url",
+                     "url": "https://www.linuxjournal.com/"
+                  } ],
+                  "date_added": "13311880457255924",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "2cbe2434-ddad-420f-945e-4e977326cf0a",
+                  "id": "102",
+                  "name": "News",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13311166697000000",
+                     "date_last_used": "0",
+                     "guid": "371f0834-5827-4c4c-8795-f1f0374ff65b",
+                     "id": "105",
+                     "name": "Why Free Software Needs Free Documentation - GNU Project - Free Software Foundation",
+                     "type": "url",
+                     "url": "https://www.gnu.org/philosophy/free-doc.html"
+                  }, {
+                     "date_added": "13311527784000000",
+                     "date_last_used": "0",
+                     "guid": "5130e270-56dc-4329-87f0-eeac4eb4af1d",
+                     "id": "106",
+                     "name": "Welcome To Distro.Tube",
+                     "type": "url",
+                     "url": "https://distro.tube/index.html"
+                  }, {
+                     "date_added": "13309538853000000",
+                     "date_last_used": "0",
+                     "guid": "c2f3502e-ff2c-4076-b649-101c2ead8ecc",
+                     "id": "107",
+                     "name": "Flathub—An app store and build service for Linux",
+                     "type": "url",
+                     "url": "https://flathub.org/home"
+                  }, {
+                     "date_added": "13310840432000000",
+                     "date_last_used": "0",
+                     "guid": "8c596275-c05d-4e6a-a78a-778253af08f0",
+                     "id": "108",
+                     "name": "GitHub - Timeshift",
+                     "type": "url",
+                     "url": "https://github.com/teejee2008/timeshift"
+                  }, {
+                     "date_added": "13311619099000000",
+                     "date_last_used": "0",
+                     "guid": "7a933d1d-87a7-40f0-96d0-141a03d6c915",
+                     "id": "109",
+                     "name": "Fedora Project - Start Page",
+                     "type": "url",
+                     "url": "https://start.fedoraproject.org/"
+                  } ],
+                  "date_added": "13311880457255950",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "b5694aa1-8b9e-4992-aaec-4d0fe0b61c31",
+                  "id": "104",
+                  "name": "Documentation",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13311180113000000",
+                     "date_last_used": "0",
+                     "guid": "8e247a06-06bc-40d0-afdb-08c71b47a340",
+                     "id": "111",
+                     "name": "Beautifying Bash and Vim Using oh-my-bash and Nightfly",
+                     "type": "url",
+                     "url": "https://linuxhint.com/bash-and-vim-nightfly/"
+                  }, {
+                     "date_added": "13311181798000000",
+                     "date_last_used": "0",
+                     "guid": "5b900aa5-6a50-47a7-b5aa-db9adc2c0bc1",
+                     "id": "112",
+                     "name": "Themes · ohmybash/oh-my-bash Wiki",
+                     "type": "url",
+                     "url": "https://github.com/ohmybash/oh-my-bash/wiki/Themes"
+                  }, {
+                     "date_added": "13310735236000000",
+                     "date_last_used": "0",
+                     "guid": "ee397e57-129e-455f-b16d-953938a4fac2",
+                     "id": "113",
+                     "name": "Using Flatpak — Flatpak documentation",
+                     "type": "url",
+                     "url": "https://docs.flatpak.org/en/latest/using-flatpak.html"
+                  }, {
+                     "date_added": "13310672390000000",
+                     "date_last_used": "0",
+                     "guid": "cac3464c-bd20-4449-a260-515a2dec10d7",
+                     "id": "114",
+                     "name": "Configuration - RPM Fusion",
+                     "type": "url",
+                     "url": "https://rpmfusion.org/Configuration"
+                  }, {
+                     "date_added": "13310672169000000",
+                     "date_last_used": "0",
+                     "guid": "0fd58faa-6f92-43cd-8e97-1eccdb07ceaf",
+                     "id": "115",
+                     "name": "DNF Configuration Reference — dnf latest documentation",
+                     "type": "url",
+                     "url": "https://dnf.readthedocs.io/en/latest/conf_ref.html"
+                  }, {
+                     "date_added": "13311192210000000",
+                     "date_last_used": "0",
+                     "guid": "25948ea7-939d-4d13-a46e-ea289bcf3fc5",
+                     "id": "116",
+                     "name": "A basic .vimrc file that will serve as a good template on which to build. · GitHub",
+                     "type": "url",
+                     "url": "https://gist.github.com/simonista/8703722"
+                  }, {
+                     "date_added": "13311265621000000",
+                     "date_last_used": "0",
+                     "guid": "a806e251-d4b2-4839-817d-5d6ea3cae7f4",
+                     "id": "117",
+                     "name": "Sync Android Phone With Linux Using KDE Connect - OSTechNix",
+                     "type": "url",
+                     "url": "https://ostechnix.com/kde-connect-access-files-notifications-android-devices/"
+                  } ],
+                  "date_added": "13311880457256080",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "755c8efa-9886-42d6-84fa-df5019d776d0",
+                  "id": "110",
+                  "name": "Configuration",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13311196688000000",
+                     "date_last_used": "0",
+                     "guid": "19db102f-c698-4df8-b88b-38aea6968218",
+                     "id": "119",
+                     "name": "How to Change File Permissions Recursively with chmod in Linux",
+                     "type": "url",
+                     "url": "https://phoenixnap.com/kb/chmod-recursive"
+                  }, {
+                     "date_added": "13311709683000000",
+                     "date_last_used": "0",
+                     "guid": "4e42149a-aa20-4775-8867-500e2ec4913e",
+                     "id": "120",
+                     "name": "Unzip Multiple Files from Linux Command Line :: Chris Jean",
+                     "type": "url",
+                     "url": "https://chrisjean.com/unzip-multiple-files-from-linux-command-line/"
+                  } ],
+                  "date_added": "13311880457256286",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "86ea6aba-c3c3-4228-ad69-b0bb60bd44c1",
+                  "id": "118",
+                  "name": "Commands",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13311524602000000",
+                     "date_last_used": "13311880676697372",
+                     "guid": "060fbe6c-7f76-4c59-a3b0-3ff3cc52d2f2",
+                     "id": "122",
+                     "name": "ArcoLinux | ArcoLinux",
+                     "type": "url",
+                     "url": "https://arcolinux.com/"
+                  }, {
+                     "date_added": "13311711984000000",
+                     "date_last_used": "0",
+                     "guid": "6a910ed8-b2dc-4891-a1cd-895cbddd95b1",
+                     "id": "123",
+                     "name": "GNU's advanced distro and transactional package manager — GNU Guix",
+                     "type": "url",
+                     "url": "https://guix.gnu.org/"
+                  }, {
+                     "date_added": "13311712037000000",
+                     "date_last_used": "0",
+                     "guid": "98a645ab-7fbd-4bf4-9a6d-d33efa4f41c3",
+                     "id": "124",
+                     "name": "https://nobaraproject.org/",
+                     "type": "url",
+                     "url": "https://nobaraproject.org/"
+                  }, {
+                     "date_added": "13311713185000000",
+                     "date_last_used": "0",
+                     "guid": "3fee6d5b-6d47-4876-aa02-57c99a805cdb",
+                     "id": "125",
+                     "name": "Tails",
+                     "type": "url",
+                     "url": "https://tails.boum.org/"
+                  } ],
+                  "date_added": "13311880457256347",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "b70b02e9-0355-414d-b070-8d9fb2e881cc",
+                  "id": "121",
+                  "name": "Distros",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13310254491000000",
+                     "date_last_used": "0",
+                     "guid": "7359bad1-51d6-4462-9cc2-2a2cd2c55b33",
+                     "id": "127",
+                     "name": "Learn Linux TV – Your source for Linux-related fun and learning!",
+                     "type": "url",
+                     "url": "https://www.learnlinux.tv/"
+                  }, {
+                     "date_added": "13310246838000000",
+                     "date_last_used": "0",
+                     "guid": "874682d6-3079-4e8d-a459-0e8834c43cf3",
+                     "id": "128",
+                     "name": "How to display the current keyboard layout? - Unix & Linux Stack Exchange",
+                     "type": "url",
+                     "url": "https://unix.stackexchange.com/questions/111624/how-to-display-the-current-keyboard-layout"
+                  }, {
+                     "date_added": "13310152689000000",
+                     "date_last_used": "0",
+                     "guid": "19bb8dd8-ab19-448a-a8b7-41fdd272e62a",
+                     "id": "129",
+                     "name": "How to Easily Rip a CD with Abcde - Make Tech Easier",
+                     "type": "url",
+                     "url": "https://www.maketecheasier.com/rip-cd-with-abcde/"
+                  }, {
+                     "date_added": "13309980257000000",
+                     "date_last_used": "0",
+                     "guid": "21ac2527-17d7-4884-98dc-e71548754985",
+                     "id": "130",
+                     "name": "Enabling AMD’s AMF Encoder",
+                     "type": "url",
+                     "url": "https://nobaraproject.org/docs/obs-studio/enabling-amds-amf-encoder/"
+                  }, {
+                     "date_added": "13311782038000000",
+                     "date_last_used": "0",
+                     "guid": "258029f5-15fd-4968-8428-0286f88637df",
+                     "id": "131",
+                     "name": "ArcoLinux -D -B Forum - Index page",
+                     "type": "url",
+                     "url": "https://arcolinuxforum.com/"
+                  } ],
+                  "date_added": "13311880457256434",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "aefa16d2-f290-423b-8498-2973b1ef8da4",
+                  "id": "126",
+                  "name": "Learning Linux",
+                  "type": "folder"
+               }, {
+                  "children": [ {
+                     "date_added": "13311708616000000",
+                     "date_last_used": "0",
+                     "guid": "8f25e360-74ee-46d9-bd4c-04bda061d312",
+                     "id": "133",
+                     "name": "Nerd Fonts - Iconic font aggregator, glyphs/icons collection, & fonts patcher",
+                     "type": "url",
+                     "url": "https://www.nerdfonts.com/font-downloads"
+                  } ],
+                  "date_added": "13311880457256578",
+                  "date_last_used": "0",
+                  "date_modified": "0",
+                  "guid": "a8264c5f-54d8-4e75-b609-d84db0c95630",
+                  "id": "132",
+                  "name": "Desktop Tweaks",
+                  "type": "folder"
+               }, {
+                  "date_added": "13312338596972658",
+                  "date_last_used": "0",
+                  "guid": "c06e5207-c861-4f52-a784-5812db4f4790",
+                  "id": "140",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "Arch Linux",
+                  "type": "url",
+                  "url": "https://archlinux.org/"
+               } ],
+               "date_added": "13311880457255787",
+               "date_last_used": "0",
+               "date_modified": "13312338596972658",
+               "guid": "b0849a7c-3e66-4666-8404-73884f5025b1",
+               "id": "95",
+               "name": "Linux",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13309979612000000",
+                  "date_last_used": "0",
+                  "guid": "289a6846-9178-4b39-86e3-52f762556ee7",
+                  "id": "135",
+                  "name": "GitHub",
+                  "type": "url",
+                  "url": "https://github.com/"
+               } ],
+               "date_added": "13311880457256610",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "ea29bbab-2ba2-46f5-96ca-326707fe9081",
+               "id": "134",
+               "name": "Coding",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13310233273000000",
+                  "date_last_used": "0",
+                  "guid": "72c40e48-d96d-4062-ad68-2276d881b48e",
+                  "id": "137",
+                  "name": "GIGABYTE GA-78LMT-USB3 | Memory RAM & SSD Upgrades | Crucial EU",
+                  "type": "url",
+                  "url": "https://eu.crucial.com/compatible-upgrade-for/gigabyte/ga-78lmt-usb3"
+               }, {
+                  "date_added": "13311620085000000",
+                  "date_last_used": "0",
+                  "guid": "04a0b32d-c6b5-4244-ac9a-28f4eb398a1d",
+                  "id": "138",
+                  "name": "GA-78LMT-USB3 (rev. 6.0) Specification | Motherboard - GIGABYTE Global",
+                  "type": "url",
+                  "url": "https://www.gigabyte.com/Motherboard/GA-78LMT-USB3-rev-60/sp#sp"
+               } ],
+               "date_added": "13311880457256631",
+               "date_last_used": "0",
+               "date_modified": "0",
+               "guid": "d919aa2c-ce18-4b75-a6b0-2460bd0e5abb",
+               "id": "136",
+               "name": "My Computer",
+               "type": "folder"
+            } ],
+            "date_added": "13311880457254000",
+            "date_last_used": "0",
+            "date_modified": "13311880457254000",
+            "guid": "010e4163-d7ee-477d-8100-106296abceac",
+            "id": "45",
+            "name": "Imported From Firefox",
+            "type": "folder"
+         } ],
+         "date_added": "13311880431607023",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13311880431607025",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13311880431607027",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

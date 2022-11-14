@@ -1,0 +1,14 @@
+2022/11/09-19:35:34.821 c76 Recovering log #25
+2022/11/09-19:35:34.822 c76 Level-0 table #27: started
+2022/11/09-19:35:34.893 c76 Level-0 table #27: 124 bytes OK
+2022/11/09-19:35:35.149 c76 Delete type=3 #23
+2022/11/09-19:35:35.149 c76 Delete type=0 #25
+2022/11/09-19:35:35.149 c76 Compacting 4@0 + 1@1 files
+2022/11/09-19:35:35.323 c76 Generated table #29@0: 13 keys, 251 bytes
+2022/11/09-19:35:35.323 c76 Compacted 4@0 + 1@1 files => 251 bytes
+2022/11/09-19:35:35.433 c76 compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/11/09-19:35:35.434 c76 Delete type=2 #18
+2022/11/09-19:35:35.434 c76 Delete type=2 #27
+2022/11/09-19:35:35.434 c76 Delete type=2 #24
+2022/11/09-19:35:35.434 c76 Delete type=2 #21
+2022/11/09-19:35:35.434 c76 Delete type=2 #16

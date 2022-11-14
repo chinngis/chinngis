@@ -1,0 +1,15 @@
+0
+/usr/share/backgrounds/arcolinux/arco-login.jpg
+/usr/share/backgrounds/arcolinux/escape-to-italy-1920x1200.jpg
+/usr/share/backgrounds/arcolinux/glorious-voyage-3840x2160.jpg
+/usr/share/backgrounds/archlinux-login-backgrounds/att-plain-03.png
+/usr/share/backgrounds/arcolinux/green-meadows-3360x1050.jpg
+/usr/share/backgrounds/archlinux-login-backgrounds/att-01.jpg
+/usr/share/backgrounds/arcolinux/green-meadows-3360x1050.jpg
+/usr/share/backgrounds/archlinux-login-backgrounds/att-plain-04.png
+/usr/share/backgrounds/archlinux-login-backgrounds/att-plain-01.png
+/usr/share/backgrounds/archlinux-login-backgrounds/att-05.jpg
+/usr/share/backgrounds/arcolinux/mystery-3840x2160.jpg
+/usr/share/backgrounds/archlinux-login-backgrounds/att-05.jpg
+/usr/share/backgrounds/archlinux-login-backgrounds/att-02.jpg
+/usr/share/backgrounds/arcolinux/arco-wallpaper.jpg

@@ -1,0 +1,15 @@
+2022/11/09-19:35:35.270 c5e Recovering log #25
+2022/11/09-19:35:35.272 c5e Level-0 table #27: started
+2022/11/09-19:35:35.288 c5e Level-0 table #27: 148 bytes OK
+2022/11/09-19:35:35.424 c5e Delete type=3 #23
+2022/11/09-19:35:35.424 c5e Delete type=0 #25
+2022/11/09-19:35:35.424 c6e Expanding@0 3+1 (1999+1840 bytes) to 4+1 (2147+1840 bytes)
+2022/11/09-19:35:35.424 c6e Compacting 4@0 + 1@1 files
+2022/11/09-19:35:35.510 c6e Generated table #29@0: 29 keys, 1494 bytes
+2022/11/09-19:35:35.510 c6e Compacted 4@0 + 1@1 files => 1494 bytes
+2022/11/09-19:35:35.559 c6e compacted to: files[ 0 1 0 0 0 0 0 ]
+2022/11/09-19:35:35.559 c6e Delete type=2 #18
+2022/11/09-19:35:35.559 c6e Delete type=2 #27
+2022/11/09-19:35:35.559 c6e Delete type=2 #24
+2022/11/09-19:35:35.559 c6e Delete type=2 #21
+2022/11/09-19:35:35.559 c6e Delete type=2 #16

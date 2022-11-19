@@ -363,3 +363,4 @@ neofetch
 #sysinfo-retro
 #cpufetch
 #colorscript random
+eval "$(starship init bash)"
